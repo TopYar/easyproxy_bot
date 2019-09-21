@@ -1,0 +1,59 @@
+html , body{	
+	width: 100%;
+	overflow-x: hidden;
+}
+div.head {
+	box-shadow: 0px 0px 13px 0px #196975 inset;
+	cursor: pointer;
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: radial-gradient(at top, #FEFFFF, #36ccf3);
+	height: 15vw;
+	display: table;
+}
+
+div.main {
+	border-radius: 25px;
+	width: 50%;
+	padding: 4vw 10vw;
+	font-size: 120%;
+	margin: 0 auto;
+	margin-top: 20vw;
+	display: table;
+	position:relative;
+	box-shadow: 0px 0px 19px 0px #194b75;
+}
+
+div.textup {	
+	padding: 0;
+	margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+ 
+.head p {
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select:none;
+	user-select: none;	
+
+	text-shadow: 2px 2px 10px #000000;
+	color:white;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 5.5vw;
+	margin: 0 0.7em;
+}
+
+.main a{
+	text-decoration: underline;
+	color: blue;
+	transition: 0.4s;
+}
+.main a:hover {
+	color: red;
+	transition: 0.4s;
+}

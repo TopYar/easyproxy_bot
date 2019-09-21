@@ -1,0 +1,1 @@
+<?php header('Refresh: 0.5; url=https://t.me/easyproxy_bot'); ?>
